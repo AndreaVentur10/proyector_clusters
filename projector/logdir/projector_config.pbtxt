@@ -1,0 +1,9 @@
+embeddings {
+  tensor_path: "/home/andrea/PycharmProjects/cluster_visualization/feature_vecs.tsv"
+  metadata_path: "/home/andrea/Desktop/TensorBoard-Embedding-Flowers/projector/logdir/metadata1.tsv"
+  sprite {
+    image_path: "/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/spritesheet.png"
+    single_image_dim: 28
+    single_image_dim: 28
+  }
+}
