@@ -1,6 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
 flowers/
-vectors.tsv
-vectors1.tsv
-vectors2.tsv
-vectors3.tsv
+feature_vecs.tsv

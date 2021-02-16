@@ -1,5 +1,5 @@
 """
-Test feature extractor imagenet mobilenet_v2_140_224
+Test feature extractor imagenet inception_v3
 """
 import csv
 import cv2
@@ -20,7 +20,7 @@ SPR_PATH = '/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/
 df = pd.read_csv(ME_PATH, delimiter="\t")
 
 #   get model from imagenet
-module = hub.Module("https://tfhub.dev/google/imagenet/mobilenet_v2_140_224/feature_vector/2")
+module = hub.Module("https://tfhub.dev/google/imagenet/inception_v3/feature_vector/3")
 height, width = hub.get_expected_image_size(module)
 ch = 3
 
@@ -28,7 +28,7 @@ filename = tf.placeholder(tf.string)
 image_bytes = tf.read_file(filename)
 image = tf.image.decode_image(image_bytes, channels=ch)
 image = tf.image.resize_bilinear([image], [height, width])
-features = module(image)
+features = module(image)  # Features with shape [batch_size, num_features].
 
 #   we save in feature_vecs.tsv all the feature vectors we obtain from applying the imagenet model to our images
 with open('feature_vecs.tsv', 'w') as fw:
