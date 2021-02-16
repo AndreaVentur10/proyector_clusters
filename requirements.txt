@@ -1,0 +1,70 @@
+absl-py @ file:///tmp/build/80754af9/absl-py_1607439979954/work
+astor==0.8.1
+astroid @ file:///tmp/build/80754af9/astroid_1592495881661/work
+certifi==2020.12.5
+chardet==4.0.0
+cmake==3.18.4.post1
+cycler==0.10.0
+Cython==0.29.21
+et-xmlfile==1.0.1
+gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+glob2==0.7
+google-pasta==0.2.0
+grpcio @ file:///tmp/build/80754af9/grpcio_1597424467487/work
+h5py==2.8.0
+idna==2.10
+iiif-downloader==0.0.8
+image-datasets==0.0.5
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+isort @ file:///tmp/build/80754af9/isort_1602603989581/work
+jdcal==1.4.1
+joblib @ file:///tmp/build/80754af9/joblib_1607970656719/work
+Keras==2.3.0
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612282414123/work
+lazy-object-proxy==1.4.3
+llvmlite==0.35.0
+Markdown @ file:///tmp/build/80754af9/markdown_1605111062842/work
+matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1603376012865/work
+mccabe==0.6.1
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+nets==0.0.3
+numba==0.52.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603479632437/work
+olefile==0.46
+openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work
+pandas==1.2.1
+Pillow @ file:///tmp/build/80754af9/pillow_1609786740831/work
+pixplot @ https://github.com/yaledhlab/pix-plot/archive/master.zip
+pointgrid==0.0.4
+protobuf==3.14.0
+pylint @ file:///tmp/build/80754af9/pylint_1598624038450/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pythonnet==2.4.0
+pytz==2020.5
+PyYAML==5.4.1
+requests==2.25.1
+scikit-learn==0.21.3
+scipy @ file:///tmp/build/80754af9/scipy_1597686620742/work
+six @ file:///tmp/build/80754af9/six_1605205313296/work
+tbb==2021.1.1
+tensorboard==1.14.0
+tensorflow==1.14.0
+tensorflow-estimator==1.14.0
+tensorflow-hub @ file:///home/conda/feedstock_root/build_artifacts/tensorflow-hub_1598286932655/work/wheel_dir/tensorflow_hub-0.9.0-py2.py3-none-any.whl
+termcolor==1.1.0
+toml @ file:///tmp/build/80754af9/toml_1592853716807/work
+tornado @ file:///tmp/build/80754af9/tornado_1606942283357/work
+typed-ast==1.4.1
+umap-learn==0.4.0
+urllib3==1.26.3
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
+wrapt==1.11.2
+xlrd==2.0.1
+yale-dhlab-keras-preprocessing==1.1.1
+yale-dhlab-rasterfairy==1.0.3
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
