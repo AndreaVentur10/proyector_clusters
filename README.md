@@ -5,12 +5,14 @@
 Execute preprocess_db.py - reads all the images from the original DB, change the color to grayscale and resize the
 images to (28,28)
 
-**Note: you'll need to change this lines to the path in your pc
+**Note: you'll need to change this lines to the paths in your pc where you have de DB and to the path where you want 
+to save the copy processed
 
 ```python
-FL_DB = '/media/andrea/My Passport/flowers/color/'  # change this to path to the one in you pc where
-# you have then original DB
-FL_SV = '/media/andrea/My Passport/flowers/gray/'
+FL_DB = '/media/andrea/My Passport/flowers/color/'  # change this path to the one in you pc where
+# you have the original DB
+FL_SV = '/media/andrea/My Passport/flowers/gray/'   # change this path to the one where you want to save
+# the processed images 
 ```
 ## Execution
 
@@ -48,11 +50,12 @@ Logdir has the metadata file needed for coloring the images by labels, the proje
 spritesheet.
 
 
-**Note: you'll need to change this lines to the path in your pc
+**Note: you'll need to change this lines to the paths in your pc where you have de DB, where you have de DB processed
+and where you are saving the sprite images.
 ```python
-IM_PATH_RGB = '/media/andrea/My Passport/flowers/color/'  # change this to path to the one in you pc where you have
+IM_PATH_RGB = '/media/andrea/My Passport/flowers/color/'  # change this path to the one in you pc where you have
 # the original DB
-IM_PATH_GRAY = '/media/andrea/My Passport/flowers/gray/'  # change this to path to the one in you pc where you have
+IM_PATH_GRAY = '/media/andrea/My Passport/flowers/gray/'  # change this path to the one in you pc where you have
 # the DB images resized and in grayscale
 # IM_PATH_SMALL = '/media/andrea/My Passport/flowers/small/'
 SPR_PATH = '/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/spritesheet.png'  # change this to
