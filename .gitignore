@@ -1,3 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 flowers/
 feature_vecs.tsv
+feature_vectors.py
+feature_vectors_1.py
+feature_vectors_2.py
+feature_vectors_3.py
