@@ -1,5 +1,17 @@
 # TensorBoard-Embedding-Flowers
 
+## Prepare de images
+
+Execute preprocess_db.py - reads all the images from the original DB, change the color to grayscale and resize the
+images to (28,28)
+
+**Note: you'll need to change this lines to the path in your pc
+
+```python
+FL_DB = '/media/andrea/My Passport/flowers/color/'  # change this to path to the one in you pc where
+# you have then original DB
+FL_SV = '/media/andrea/My Passport/flowers/gray/'
+```
 ## Execution
 
 Execute feature_extractor.py - it creates all the feature vectors that the projector will use for painting the clusters.
@@ -34,6 +46,17 @@ tensorboard --logdir = logdir
 
 Logdir has the metadata file needed for coloring the images by labels, the projector configuration file and the 
 spritesheet.
+
+
+**Note: you'll need to change this lines to the path in your pc
+```python
+IM_PATH_RGB = '/media/andrea/My Passport/flowers/color/'  # change this to path to the one in you pc where you have
+# the original DB
+IM_PATH_GRAY = '/media/andrea/My Passport/flowers/gray/'  # change this to path to the one in you pc where you have
+# the DB images resized and in grayscale
+# IM_PATH_SMALL = '/media/andrea/My Passport/flowers/small/'
+SPR_PATH = '/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/spritesheet.png'  # change this to
+```
 
 ## After deploying the projector
 

@@ -27,10 +27,13 @@ elif m == "4":  # feature extractor from model inception_resnet_v2
     URL = "https://tfhub.dev/google/imagenet/inception_resnet_v2/classification/3"
 
 #   paths to image directorys , metadata file and spritesheet image
-IM_PATH_RGB = '/media/andrea/My Passport/flowers/color/'
-IM_PATH_GRAY = '/media/andrea/My Passport/flowers/gray/'
-IM_PATH_SMALL = '/media/andrea/My Passport/flowers/small/'
-SPR_PATH = '/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/spritesheet.png'
+IM_PATH_RGB = '/media/andrea/My Passport/flowers/color/'  # change this to path to the one in you pc where you have
+# the original DB
+IM_PATH_GRAY = '/media/andrea/My Passport/flowers/gray/'  # change this to path to the one in you pc where you have
+# the DB images resized and in grayscale
+# IM_PATH_SMALL = '/media/andrea/My Passport/flowers/small/'
+SPR_PATH = '/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/spritesheet.png'  # change this to
+# path to the one in you pc
 
 #   read metadata where there are the images paths
 df = pd.read_csv('metadata.csv', delimiter="\t")
