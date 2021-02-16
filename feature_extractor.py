@@ -30,11 +30,10 @@ elif m == "4":  # feature extractor from model inception_resnet_v2
 IM_PATH_RGB = '/media/andrea/My Passport/flowers/color/'
 IM_PATH_GRAY = '/media/andrea/My Passport/flowers/gray/'
 IM_PATH_SMALL = '/media/andrea/My Passport/flowers/small/'
-ME_PATH = '/home/andrea/Desktop/TensorBoard-Embedding-Flowers/metadata.csv'
 SPR_PATH = '/home/andrea/PycharmProjects/cluster_visualization/projector/logdir/spritesheet.png'
 
 #   read metadata where there are the images paths
-df = pd.read_csv(ME_PATH, delimiter="\t")
+df = pd.read_csv('metadata.csv', delimiter="\t")
 
 #   get model from imagenet
 module = hub.Module(URL)
